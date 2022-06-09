@@ -4,6 +4,7 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+    
 <style>
     img {
         width: 100%;
@@ -19,9 +20,7 @@
         width: 96px;
     }
 
-
 </style>
-
 
 <body>
     
@@ -106,6 +105,23 @@
     <p>Total:</p> <input type="text" name="HazMats"><br><br><br>
 </div>
 </div>   
+    
+<div class="row">
+<div class="col">
+    <script type="text/javascript">
+    var clicks6 = 0;
+    function hello6() {
+        clicks6 += 1;
+        document.getElementById("clicks6").innerHTML = clicks6;
+    };
+    </script>
+    <button type="button" onclick="hello6()">Smalls</button>
+    <p>Packages: <a id="clicks6">0</a></p>
+    <p>Total:</p> <input type="text" name="Smalls"><br><br><br>
+</div>   
+    <p>Area:</p> <input type="text" name="Area"><br><br><br>
+</div>   
+</div> 
     
 <input type="submit" value="Send">
 </form>
